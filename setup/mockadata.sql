@@ -65,34 +65,34 @@ insert into faculties(grant_count, contract_count ,faculty_name, first_subject, 
 ( '30','65','Sun''iy intellekt', '1', '3',  '59.5', '23.9', 1 ),
 
 ('20', '48', 'Davolash fakulteti', '5', '4',  '58', '34',2 ),
-('25', '50', 'Tibbiy pedagogika fakulteti', '5', '4',  '165', '30', 2),
-('15','45',  'Tibbiy-biologik fakulteti','5', '4',   '58.5', '36', 2),
+('25', '50', 'Tibbiy pedagogika fakulteti', '5', '4',  '55', '30', 2),
+('15','45',  'Tibbiy-biologik fakulteti','5', '4',   '55.5', '36', 2),
 ('30','65',  'Biotibbiyot muhandisligi fakulteti', '5', '4', '163.5',  '26.5',  2),
 
-( '25', '50', 'Moliya va moliyaviy texnologiyalar', '1', '2',  '58.5', '140', 3),
+( '25', '50', 'Moliya va moliyaviy texnologiyalar', '1', '2',  '58.5', '40', 3),
 ( '20', '45', 'Bank ishi va Audit', '1', '2',   '58', '27', 3),
 ( '24', '52',  'Elektron tijorat',  '1', '2',   '58.5', '145.7', 3),
 ( '22', '45',  'Buxgalteriya ishi va Audit',    '1', '2',  '58.5', '23.9',  3),
 
 
-('20', '48', 'Biologiya(turlari boycha)', '5', '4',  '169', '58',  4),
-('25', '50', 'Amaliy matematika', '1', '3',  '166', '117',     4),
+('20', '48', 'Biologiya(turlari boycha)', '5', '4',  '59', '48',  4),
+('25', '50', 'Amaliy matematika', '1', '3',  '56', '37',     4),
 ('15', '45',  'Bank ishi va Audit','1', '2',   '58.5', '35.7', 4),
 ('30', '65',  'Agrokimyo', '5', '4',  '58.5', '23.9', 4),
 
-('20', '48', 'Davolash ishi', '5', '4',  '58.5', '140',     5 ),
-('25', '50', 'Pedriatriya ishi', '5', '4',  '166.5', '37',     5),
-('15', '45',  'Xalq tabobati','5', '4',   '169.5', '28.5', 5),
-('30', '65',  'Tibiy biologik ish', '5', '4',  '158.5', '23.9', 5);
+('20', '48', 'Davolash ishi', '5', '4',  '58.5', '40',     5 ),
+('25', '50', 'Pedriatriya ishi', '5', '4',  '56.5', '27',     5),
+('15', '45',  'Xalq tabobati','5', '4',   '59.5', '28.5', 5),
+('30', '65',  'Tibiy biologik ish', '5', '4',  '48.5', '23.9', 5);
 
 -- SELECT * from questions;
 -- SELECT * from results;
 
 insert into results(first_subject, second_subject, date, time, user_id, faculty_id, first_subject_id, second_subject_id, first_tests_result, second_tests_result, score_ball) values 
 ('10', '10', '2022-08-28 17:30:43', '47', '1', '3', '1', '3', '7', '8', '56');
-('10', '10', '2022-08-28 17:30:43', '36', '2', '5', '1', '2', '8', '6', '29'),
-('10', '10', '2022-08-28 17:30:43', '33', '2', '7', '1', '2', '6', '8', '39'),
-('10', '10', '2022-08-28 17:30:43', '45', '1', '1', '1', '3', '7', '5', '29'),
+-- ('10', '10', '2022-08-28 17:30:43', '36', '2', '5', '1', '2', '8', '6', '29');
+-- ('10', '10', '2022-08-28 17:30:43', '33', '2', '7', '1', '2', '6', '8', '39'),
+-- ('10', '10', '2022-08-28 17:30:43', '45', '1', '1', '1', '3', '7', '5', '29'),
 
 
 

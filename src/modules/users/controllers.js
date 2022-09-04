@@ -23,7 +23,7 @@ const LOGIN = async (req,res) => {
         if(user) {
             res.status(200).json({
                 status:200,
-                message: 'ok',
+                message: 'Login',
                 data: user,
                 token: sign(user.user_id)
             })

@@ -1,14 +1,12 @@
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 7000
-const path =require('path');
 const modules = require('./modules/index.js');
 const cors = require('cors')
 var bodyParser = require("body-parser");
-var fileUpload = require('express-fileupload')
 
 
-app.use(fileUpload({ createParentPath: true }));
+
 
 app.use(cors())
 app.use(express.json())
